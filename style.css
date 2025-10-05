@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Arial, sans-serif;
+  background: #f4f7fa;
+}
+
+.container {
+  max-width: 400px;
+  margin: 60px auto 0 auto;
+  background: #fff;
+  padding: 35px 30px 30px 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(55, 94, 148, 0.15);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 24px;
+  color: #3975ea;
+  font-size: 2.1em;
+  letter-spacing: 1px;
+}
+
+label {
+  display: block;
+  font-size: 1.05em;
+  margin-bottom: 9px;
+  color: #555;
+}
+
+input[type="date"] {
+  width: 95%;
+  padding: 9px 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 18px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+input[type="date"]:focus {
+  border: 1.5px solid #3975ea;
+}
+
+button {
+  width: 100%;
+  background: #3975ea;
+  color: #fff;
+  border: none;
+  padding: 11px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 14px;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #295bb0;
+}
+
+#result {
+  margin-top: 18px;
+  font-size: 1.2em;
+  color: #333;
+  min-height: 36px;
+}
+
+footer {
+  text-align: center;
+  padding: 18px 0 9px 0;
+  color: #a2a8b3;
+  background: transparent;
+  font-size: 0.98em;
+}
